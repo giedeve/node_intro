@@ -6,6 +6,5 @@ const subTitle = "WSB"
 module.exports = {
     helloWorld,
     add,
-    subTitle,
-    subsubTitle
+    subTitle
 }

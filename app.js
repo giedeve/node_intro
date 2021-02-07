@@ -12,15 +12,14 @@ app.use('/assets',express.static(path.join(__dirname,"./assets")));
 app.use('/js',express.static(path.join(__dirname,"./js")));
 
 
-const proba () => {
-    return 'proba'
-}
+// const proba () => {
+//     return 'proba'
+// }
 
 app.get("/", function (req,res){
     res.render("index", {
         title: "Zajęcia 07.02.2021",
         subTitle: functions.subTitle
-        subsubTitle: proba()
     });
 })
 app.get("/about", function (req,res){
